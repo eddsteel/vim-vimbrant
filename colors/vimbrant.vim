@@ -85,7 +85,7 @@ if has('gui_running')
     hi Macro           guifg=#C4BE89               gui=italic
     hi SpecialKey      guifg=#66D9EF               gui=italic
 
-    hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
+    hi MatchParen      guifg=#FD971F guibg=#000000 gui=bold
     hi ModeMsg         guifg=#E6DB74
     hi MoreMsg         guifg=#E6DB74
     hi Operator        guifg=#F92672
@@ -270,7 +270,7 @@ elseif &t_Co > 255
     hi mailQuoted5     ctermfg=1
     hi mailQuoted6     ctermfg=5
 
-    hi MatchParen      ctermfg=16  ctermbg=208   cterm=bold
+    hi MatchParen      ctermbg=208   ctermfg=16  cterm=bold
     hi ModeMsg         ctermfg=229
     hi MoreMsg         ctermfg=229
     hi Operator        ctermfg=161
