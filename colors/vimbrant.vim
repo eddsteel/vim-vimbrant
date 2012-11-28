@@ -221,6 +221,7 @@ if has('gui_running')
 elseif &t_Co > 255
 
     " 256-color scheme
+		hi ColorColumn                  ctermbg=233
 
     hi Boolean         ctermfg=135
     hi Character       ctermfg=186
