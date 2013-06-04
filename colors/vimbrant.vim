@@ -106,6 +106,7 @@ if has('gui_running')
     hi SpecialChar     guifg=#F92672               gui=bold
     hi SpecialComment  guifg=#465457               gui=bold
     hi Special         guifg=#66D9EF guibg=bg      gui=italic
+    hi Conceal         guifg=#66D9EF guibg=bg
     hi SpecialKey      guifg=#888A85               gui=italic
     if has("spell")
         hi SpellBad    guisp=#FF0000 gui=undercurl
@@ -278,8 +279,8 @@ elseif &t_Co > 255
 
     " complete menu
     hi Pmenu           ctermfg=81  ctermbg=16
-    hi PmenuSel                    ctermbg=244
-    hi PmenuSbar                   ctermbg=232
+    hi PmenuSel        ctermfg=16  ctermbg=81
+    hi PmenuSbar                   ctermbg=118
     hi PmenuThumb      ctermfg=81
 
     hi PreCondit       ctermfg=118               cterm=bold
@@ -293,6 +294,7 @@ elseif &t_Co > 255
     hi SpecialChar     ctermfg=161               cterm=bold
     hi SpecialComment  ctermfg=245               cterm=bold
     hi Special         ctermfg=81 
+    hi Conceal         ctermfg=208  ctermbg=232
     hi SpecialKey      ctermfg=245
 
     hi Statement       ctermfg=161               cterm=bold
@@ -442,6 +444,7 @@ elseif &t_Co < 256
     hi Label           ctermfg=3  cterm=bold 
     hi Macro           ctermfg=2  cterm=bold 
     hi SpecialKey      ctermfg=4
+    hi Conceal      ctermfg=4
 
     hi mailSubject     ctermfg=3  cterm=bold 
     hi mailHeaderKey   ctermfg=3  cterm=bold 
