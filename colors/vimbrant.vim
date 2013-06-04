@@ -303,12 +303,13 @@ elseif &t_Co > 255
     hi StorageClass    ctermfg=208
     hi Structure       ctermfg=81
     hi Tag             ctermfg=161
-    hi Title           ctermfg=166
+    hi Title           ctermfg=208
     hi Todo            ctermfg=231 ctermbg=232   cterm=bold
 
     hi Typedef         ctermfg=81
     hi Type            ctermfg=81                cterm=none
     hi Underlined      ctermfg=244               cterm=underline
+    hi htmlLink        ctermfg=81                cterm=underline
 
     hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
     hi VisualNOS                   ctermbg=238
